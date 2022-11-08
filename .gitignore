@@ -4,3 +4,5 @@ airflow_settings.yaml
 astro
 dags/example_dag_advanced.py
 dags/example_dag_basic.py
+dags/__pycache__
+
