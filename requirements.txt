@@ -11,4 +11,5 @@ six==1.16.0
 SQLAlchemy==1.4.42
 zope.interface==5.5.1
 apache-airflow-providers-postgres
+apache-airflow-providers-amazon
 apache-airflow
