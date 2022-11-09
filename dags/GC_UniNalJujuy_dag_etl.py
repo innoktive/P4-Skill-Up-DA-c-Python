@@ -6,6 +6,7 @@ from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
 
+
 filepath=Path(r'/usr/local/airflow/files/GC_UniNalJujuy.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
 df_columns=['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
@@ -89,7 +90,7 @@ with DAG(
         python_callable=create_jujuy_df,
         retries=5
     )
-    #. Process jujuy data and save it as txt file
+    #3. Process jujuy data and save it as txt file
     task_transform_jujuy_df=PythonOperator(
         task_id='transform_jujuy_df',
         python_callable=transform_jujuy_df,
