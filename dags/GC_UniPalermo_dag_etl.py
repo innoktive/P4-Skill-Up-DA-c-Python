@@ -36,7 +36,7 @@ def create_palermo_df(ti):
 
 with DAG(
     dag_id='prueba_palermo',
-    schedule_interval ='@daily',
+    schedule_interval ='@hourly',
     start_date = datetime(year=2022, month=11, day=8),
     catchup=False
 ) as dag:
@@ -44,12 +44,14 @@ with DAG(
     task_get_palermo_info = PythonOperator(
         task_id='get_palermo_info',
         python_callable=get_palermo_info,
-        do_xcom_push=True
+        do_xcom_push=True,
+        retries=5
     )
     #2. Save palermo data in dataframe
     task_create_palermo_df = PythonOperator(
         task_id='create_palermo_df',
-        python_callable=create_palermo_df
+        python_callable=create_palermo_df,
+        retries=5
     )
     
     task_get_palermo_info >> task_create_palermo_df

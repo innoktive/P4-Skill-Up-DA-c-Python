@@ -10,9 +10,9 @@ from airflow.operators.bash import BashOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 
-filepath = Path(r'/usr/local/airflow/files/GD_tres_de_febrero.csv')
+filepath = Path(r'/usr/local/airflow/files/GD_UniNalTresFebrero.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
-df_columns = ['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
+df_columns = ['university','career','inscription_date','full_name','gender','age','postal_code','location','email']
 
 def get_tres_de_febrero_info(**kwargs):
     with open(r'/usr/local/airflow/include/tres_de_febrero.sql') as sqlfile:
@@ -36,7 +36,7 @@ def create_tres_de_febrero_df(ti):
 
 with DAG(
     dag_id='prueba_tres_de_febrero',
-    schedule_interval ='@daily',
+    schedule_interval ='@hourly',
     start_date = datetime(year=2022, month=11, day=8),
     catchup=False
 ) as dag:
@@ -44,12 +44,14 @@ with DAG(
     task_get_tres_de_febrero_info = PythonOperator(
         task_id='get_tres_de_febrero_info',
         python_callable=get_tres_de_febrero_info,
-        do_xcom_push=True
+        do_xcom_push=True,
+        retries=5
     )
     #2. Save tres_de_febrero data in dataframe
     task_create_tres_de_febrero_df = PythonOperator(
         task_id='create_tres_de_febrero_df',
-        python_callable=create_tres_de_febrero_df
+        python_callable=create_tres_de_febrero_df,
+        retries=5
     )
     
     task_get_tres_de_febrero_info >> task_create_tres_de_febrero_df
