@@ -21,7 +21,6 @@ def get_jujuy_info(**kwargs):
     )
     pg_conn = hook.get_conn()
     cursor =pg_conn.cursor()
-    pg_conn=hook.get_conn()
     cursor.execute(query)
     return cursor.fetchall()
 
