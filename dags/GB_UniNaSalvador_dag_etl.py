@@ -10,7 +10,7 @@ from airflow.operators.bash import BashOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 
-filepath = Path(r'/usr/local/airflow/files/GC_UniNalSalvador.csv')
+filepath = Path(r'/usr/local/airflow/files/GB_UniNalSalvador.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
 df_columns = ['university','career','inscription_date','last_name','gender','birth_date','location','email']
 
