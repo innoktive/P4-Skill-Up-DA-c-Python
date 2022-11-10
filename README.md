@@ -119,7 +119,12 @@ Se colocará grupo-letra-siglas de la universidad y localidad, seguido por "_pro
 
 EJ: GFUNRioCuarto_process.txt
 
+
+
+
 # MATERIAL COMPLEMENTARIO
+_____________________________________________________________________________________________________________________________
+
 
 # AIRFLOW
 
@@ -137,6 +142,8 @@ https://academy.alkemy.org/curso/python/contenidos/clase-1-introduccion-a-flujos
 # Airflow Hooks Explained 101
 https://hevodata.com/learn/airflow-hooks/
 
+
+__________________________________________________________________________________________
 # Create a S3 bucket into AWS.
 https://docs.aws.amazon.com/es_es/elastictranscoder/latest/developerguide/gs-2-create-s3-buckets.html
 
@@ -161,6 +168,8 @@ Since we have many services and specific permissions to interact with them, we h
 
 ![image](https://user-images.githubusercontent.com/2921066/194302244-d96f0220-34f6-4eb2-97cc-05db9fc0d7f2.png)
 
+
+________________________________________________________________________________________________
 ## Credentials
 This is a very important step. You have to make sure of copy and save the credentials because we will use them later.
 
@@ -189,6 +198,7 @@ https://www.youtube.com/watch?v=HuMgMTHrkn4&ab_channel=DatawithMarc
 # Dynamically Generating DAGs in Airflow
 https://www.astronomer.io/guides/dynamically-generating-dags/
 
+______________________________________________________________________________
 # Loggers
 
 # Configuración del archivo de logger.cfg
