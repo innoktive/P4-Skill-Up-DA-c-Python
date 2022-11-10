@@ -93,8 +93,12 @@ with DAG(
 =======
 with DAG(
     dag_id='prueba_palermo',
+<<<<<<< HEAD
     schedule_interval ='@daily',
 >>>>>>> 3d393a9 (Included succesful extraction DAG (csv in files folder))
+=======
+    schedule_interval ='@hourly',
+>>>>>>> 699e9be (modified DAGs to run succesfully in airflow)
     start_date = datetime(year=2022, month=11, day=8),
     catchup=False
 ) as dag:
@@ -103,15 +107,21 @@ with DAG(
         task_id='get_palermo_info',
         python_callable=get_palermo_info,
 <<<<<<< HEAD
+<<<<<<< HEAD
         do_xcom_push=True,
         retries=5
 =======
         do_xcom_push=True
 >>>>>>> 3d393a9 (Included succesful extraction DAG (csv in files folder))
+=======
+        do_xcom_push=True,
+        retries=5
+>>>>>>> 699e9be (modified DAGs to run succesfully in airflow)
     )
     #2. Save palermo data in dataframe
     task_create_palermo_df = PythonOperator(
         task_id='create_palermo_df',
+<<<<<<< HEAD
 <<<<<<< HEAD
         python_callable=create_palermo_df,
         retries=5
@@ -126,6 +136,10 @@ with DAG(
     task_get_palermo_info >> task_create_palermo_df >> task_transform_palermo_df
 =======
         python_callable=create_palermo_df
+=======
+        python_callable=create_palermo_df,
+        retries=5
+>>>>>>> 699e9be (modified DAGs to run succesfully in airflow)
     )
     
     task_get_palermo_info >> task_create_palermo_df
