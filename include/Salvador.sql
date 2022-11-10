@@ -10,5 +10,5 @@ FROM public.salvador_villa_maria
 WHERE
     universidad = 'UNIVERSIDAD_DEL_SALVADOR'
     AND
-    INSCRIPTION_DATE BETWEEN '20-09-01' AND '21-02-01';
+    fecha_de_inscripcion BETWEEN '20-09-01' AND '21-02-01';
 	
