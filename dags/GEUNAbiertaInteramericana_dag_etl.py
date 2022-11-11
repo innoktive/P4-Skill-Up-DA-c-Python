@@ -41,6 +41,13 @@ def extract():
     df.to_csv(full_path + CSV_NAME)
 
 
+def transform():
+    full_path = os.path.join(ABSOLUTE_PATH, '../files/')
+    df = pd.read_csv(full_path + CSV_NAME)
+
+    # continue with transform.
+
+
 univ_abierta_interamericana_DAG = DAG(
     dag_id='univ_abierta_interamericana',
     schedule_interval ='@hourly',
@@ -58,7 +65,7 @@ with univ_abierta_interamericana_DAG as dag:
     task_extract = PythonOperator(task_id='extract_data', python_callable=extract)
 
     # Use pandas in PythonOperator to transform exracted data.
-    task_transform = EmptyOperator(task_id='transform_data')
+    task_transform = PythonOperator(task_id='transform_data', python_callable=transform)
 
     # Use Amazon S3 Hook to load and store transformed data in the cloud.
     task_load = EmptyOperator(task_id='load_data')
