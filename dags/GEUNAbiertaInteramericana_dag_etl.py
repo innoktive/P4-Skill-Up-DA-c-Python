@@ -34,7 +34,7 @@ univ_abierta_interamericana_DAG = DAG(
 
 with univ_abierta_interamericana_DAG as dag:
     # Use postgres hook to extract date from database.
-    task_extract = PythonOperator(task_id='extract_data', callable=extract)
+    task_extract = PythonOperator(task_id='extract_data', python_callable=extract)
 
     # Use pandas in PythonOperator to transform exracted data.
     task_transform = EmptyOperator(task_id='transform_data')
