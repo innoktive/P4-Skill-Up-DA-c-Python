@@ -1,12 +1,24 @@
 from airflow import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 from datetime import datetime, timedelta
 import logging
+import pandas as pd
+import os
 
+
+CONNECTION_ID = 'alkemy_db'
+SCHEMA = 'training'
+
+SQL_FILE = 'GEUNAbiertainteramericana.sql'
+CSV_NAME = 'GEUNAbiertaInteramericana_select.csv'
 
 LOGGER_NAME = 'Logger Univ. Abierta Interamericana'
 LOGGER_MSG = ''
+
+ABSOLUTE_PATH = os.path.dirname(__file__)
+
 
 def _log():
     logging.basicConfig(level=logging.INFO,
@@ -18,6 +30,15 @@ def _log():
 
 def extract():
     _log()
+    
+    full_path = os.path.join(ABSOLUTE_PATH, '../include/')
+    with open(full_path + SQL_FILE) as f:
+        query = f.read()
+    
+    hook = PostgresHook(postgres_conn_id=CONNECTION_ID, schema=SCHEMA)
+    df = hook.get_pandas_df(sql=query)
+    full_path = os.path.join(ABSOLUTE_PATH, '../files/')
+    df.to_csv(full_path + CSV_NAME)
 
 
 univ_abierta_interamericana_DAG = DAG(
