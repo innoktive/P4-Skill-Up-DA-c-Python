@@ -5,8 +5,6 @@ from pathlib import Path
 from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 filepath=Path(r'/usr/local/airflow/files/GC_UniNalJujuy.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
@@ -20,42 +18,13 @@ def get_jujuy_info(**kwargs):
         postgres_conn_id='alkemy_db',
         schema='training'
     )
-    pg_conn=hook.get_conn()
-    cursor=pg_conn.cursor()
-=======
-from airflow.models import Variable
-from airflow.operators.bash import BashOperator
-from airflow.providers.postgres.operators.postgres import PostgresOperator
-
-=======
->>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
-
-filepath=Path(r'/usr/local/airflow/files/GC_UniNalJujuy.csv')
-filepath.parent.mkdir(parents=True, exist_ok=True)
-df_columns=['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
-postal_codes_path=(r'/usr/local/airflow/assets/codigos_postales.csv')
-
-def get_jujuy_info(**kwargs):
-    with open(r'/usr/local/airflow/include/Jujuy.sql') as sqlfile:
-        query=sqlfile.read()
-    hook=PostgresHook(
-        postgres_conn_id='alkemy_db',
-        schema='training'
-    )
-<<<<<<< HEAD
     pg_conn = hook.get_conn()
     cursor =pg_conn.cursor()
->>>>>>> 3d393a9 (Included succesful extraction DAG (csv in files folder))
-=======
     pg_conn=hook.get_conn()
-    cursor=pg_conn.cursor()
->>>>>>> 699e9be (modified DAGs to run succesfully in airflow)
     cursor.execute(query)
     return cursor.fetchall()
 
 def create_jujuy_df(ti):
-<<<<<<< HEAD
-<<<<<<< HEAD
     jujuy=ti.xcom_pull(task_ids=['get_jujuy_info'], include_prior_dates = True)
     if not jujuy:
         raise Exception('No info available')
@@ -101,7 +70,6 @@ def transform_jujuy_df(**kwargs):
     #F. Saving df as txt file
     jujuy_df.to_csv(r'/usr/local/airflow/datasets/GC_UniNalJujuy.txt',sep=',',mode='w',index=False,columns=printing_columns)
 
-<<<<<<< HEAD
 with DAG(
     dag_id='prueba_jujuy',
     schedule_interval ='@hourly',
@@ -129,48 +97,3 @@ with DAG(
     ) 
     
     task_get_jujuy_info >> task_create_jujuy_df >> task_transform_jujuy_df
-=======
-    jujuy = ti.xcom_pull(task_ids=['get_jujuy_info'], include_prior_dates = True)
-=======
-    jujuy=ti.xcom_pull(task_ids=['get_jujuy_info'], include_prior_dates = True)
->>>>>>> 699e9be (modified DAGs to run succesfully in airflow)
-    if not jujuy:
-        raise Exception('No info available')
-    jujuy_df=pd.DataFrame(data=jujuy[0], columns = df_columns)
-    print(jujuy_df)
-    jujuy_df.to_csv(filepath, index=False, header=True)
-
-=======
->>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
-with DAG(
-    dag_id='prueba_jujuy',
-    schedule_interval ='@hourly',
-    start_date=datetime(year=2022, month=11, day=8),
-    catchup=False
-) as dag:
-    #1. Get jujuy University data from postgres table
-    task_get_jujuy_info=PythonOperator(
-        task_id='get_jujuy_info',
-        python_callable=get_jujuy_info,
-        do_xcom_push=True,
-        retries=5
-    )
-    #2. Save jujuy data in dataframe
-    task_create_jujuy_df=PythonOperator(
-        task_id='create_jujuy_df',
-        python_callable=create_jujuy_df,
-        retries=5
-    )
-    #. Process jujuy data and save it as txt file
-    task_transform_jujuy_df=PythonOperator(
-        task_id='transform_jujuy_df',
-        python_callable=transform_jujuy_df,
-        retries=5
-    ) 
-    
-<<<<<<< HEAD
-    task_get_jujuy_info >> task_create_jujuy_df
->>>>>>> 3d393a9 (Included succesful extraction DAG (csv in files folder))
-=======
-    task_get_jujuy_info >> task_create_jujuy_df >> task_transform_jujuy_df
->>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
