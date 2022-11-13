@@ -7,6 +7,11 @@ dags/example_dag_basic.py
 dags/__pycache__
 docker-compose.override.yml
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 679f1fc (Included yaml file to be able to write files folder)
+=======
+Pandas_Jujuy-py
+pandas_palermo.py
+>>>>>>> acc9389 (Update .gitignore)
