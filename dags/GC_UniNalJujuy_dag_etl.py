@@ -6,6 +6,7 @@ from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 filepath=Path(r'/usr/local/airflow/files/GC_UniNalJujuy.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
@@ -26,10 +27,13 @@ from airflow.models import Variable
 from airflow.operators.bash import BashOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 
+=======
+>>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
 
 filepath=Path(r'/usr/local/airflow/files/GC_UniNalJujuy.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
 df_columns=['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
+postal_codes_path=(r'/usr/local/airflow/assets/codigos_postales.csv')
 
 def get_jujuy_info(**kwargs):
     with open(r'/usr/local/airflow/include/Jujuy.sql') as sqlfile:
@@ -97,6 +101,7 @@ def transform_jujuy_df(**kwargs):
     #F. Saving df as txt file
     jujuy_df.to_csv(r'/usr/local/airflow/datasets/GC_UniNalJujuy.txt',sep=',',mode='w',index=False,columns=printing_columns)
 
+<<<<<<< HEAD
 with DAG(
     dag_id='prueba_jujuy',
     schedule_interval ='@hourly',
@@ -135,6 +140,8 @@ with DAG(
     print(jujuy_df)
     jujuy_df.to_csv(filepath, index=False, header=True)
 
+=======
+>>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
 with DAG(
     dag_id='prueba_jujuy',
     schedule_interval ='@hourly',
@@ -154,6 +161,16 @@ with DAG(
         python_callable=create_jujuy_df,
         retries=5
     )
+    #. Process jujuy data and save it as txt file
+    task_transform_jujuy_df=PythonOperator(
+        task_id='transform_jujuy_df',
+        python_callable=transform_jujuy_df,
+        retries=5
+    ) 
     
+<<<<<<< HEAD
     task_get_jujuy_info >> task_create_jujuy_df
 >>>>>>> 3d393a9 (Included succesful extraction DAG (csv in files folder))
+=======
+    task_get_jujuy_info >> task_create_jujuy_df >> task_transform_jujuy_df
+>>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
