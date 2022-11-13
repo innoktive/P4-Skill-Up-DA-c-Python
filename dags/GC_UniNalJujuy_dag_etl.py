@@ -6,7 +6,6 @@ from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
 
-
 filepath=Path(r'/usr/local/airflow/files/GC_UniNalJujuy.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
 df_columns=['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']

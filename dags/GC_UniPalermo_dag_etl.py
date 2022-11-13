@@ -6,6 +6,7 @@ from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 filepath = Path(r'/usr/local/airflow/files/GC_UniPalermo.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
@@ -21,6 +22,13 @@ filepath = Path(r'/usr/local/airflow/files/GC_UniPalermo.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
 df_columns = ['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
 >>>>>>> 3d393a9 (Included succesful extraction DAG (csv in files folder))
+=======
+
+filepath = Path(r'/usr/local/airflow/files/GC_UniPalermo.csv')
+filepath.parent.mkdir(parents=True, exist_ok=True)
+df_columns=['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
+postal_codes_path=(r'/usr/local/airflow/assets/codigos_postales.csv')
+>>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
 
 def get_palermo_info(**kwargs):
     with open(r'/usr/local/airflow/include/Palermo.sql') as sqlfile:
@@ -43,6 +51,9 @@ def create_palermo_df(ti):
     palermo_df.to_csv(filepath, index=False, header=True)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
 # Calculate age from birth_date
 today=pd.to_datetime('today')
 def calculate_age(count,palermo_df):
@@ -133,6 +144,7 @@ with DAG(
         retries=5
     )
     
+<<<<<<< HEAD
     task_get_palermo_info >> task_create_palermo_df >> task_transform_palermo_df
 =======
         python_callable=create_palermo_df
@@ -144,3 +156,6 @@ with DAG(
     
     task_get_palermo_info >> task_create_palermo_df
 >>>>>>> 3d393a9 (Included succesful extraction DAG (csv in files folder))
+=======
+    task_get_palermo_info >> task_create_palermo_df >> task_transform_palermo_df
+>>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
