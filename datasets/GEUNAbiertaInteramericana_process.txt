@@ -1,0 +1,153 @@
+,university,career,inscription_date,gender,location,email,first_name,last_name,age,postal_code
+0, universidad abierta interamericana,licenciatura en producción de bioimagenes,2021-01-21,male,barra bonita,millerrandall@gmail.com,tyrone,roberts,18,3357
+1, universidad abierta interamericana,medicina,2021-10-20,male,betbeder,wjohnson@yahoo.com,david,wallace,0,3156
+2, universidad abierta interamericana,farmacia,2020-12-20,male,alcorta,reedaustin@yahoo.com,brandon,carter,36,2117
+3, universidad abierta interamericana,farmacia,2019-10-20,female,cañada seca,williamselizabeth@hotmail.com,jessica,patel,38,6105
+4, universidad abierta interamericana,diseño de imagen y sonido,2020-12-20,male,berabevu,fgarza@yahoo.com,joshua,wheeler,45,2639
+5, universidad abierta interamericana,licenciatura en sociología ,2021-12-20,female,lehmann,gwright@hotmail.com,latasha,houston,16,2305
+6, universidad abierta interamericana,diseño industrial,2020-10-20,male,balneario los angeles,mmiles@hotmail.com,sean,lindsey,0,7641
+7, universidad abierta interamericana,ingeniería electrónica,2021-11-20,female,9 de julio,craigjessica@yahoo.com,martha,garrett,0,6500
+8, universidad abierta interamericana,licenciatura en ciencia política ,2021-12-20,male,aceilan,frenchsean@hotmail.com,jerry,russell,24,7003
+9, universidad abierta interamericana,licenciatura en ciencia política ,2021-12-20,female,cangallo,melissaprice@gmail.com,deborah,hill,33,7153
+10, universidad abierta interamericana,licenciatura en ciencias geológicas,2021-09-20,female,barrio don santiago,cynthiapalmer@gmail.com,regina,livingston,14,3304
+11, universidad abierta interamericana,licenciatura en relaciones del trabajo ,2019-11-20,female,garin,fschneider@yahoo.com,jennifer,hernandez,42,1619
+12, universidad abierta interamericana,actuario ,2021-11-20,male,30 de agosto,jessica92@yahoo.com,todd,walsh,0,6405
+13, universidad abierta interamericana,licenciatura en ciencias ambientales,2021-11-20,female,ingeniero balbin,sarah46@hotmail.com,theresa,hall,18,6051
+14, universidad abierta interamericana,licenciatura en relaciones del trabajo ,2019-10-20,male,arquedas,stevenfrost@yahoo.com,timothy,klein,0,8164
+15, universidad abierta interamericana,agronomía,2019-11-20,male,colonia velez,ashepherd@yahoo.com,gregory,henry,23,2933
+16, universidad abierta interamericana,ciencias veterinarias,2021-11-20,male,alejandro korn,bettycantrell@hotmail.com,john,martin,2,1864
+17, universidad abierta interamericana,licenciatura en kinesiología y fisiatría,2021-09-20,male,catamontaña,fwaters@gmail.com,robert,wilson,19,4603
+18, universidad abierta interamericana,licenciatura en administración ,2021-09-20,female,11 de mayo,gomezgabrielle@hotmail.com,beverly,yoder,0,5701
+19, universidad abierta interamericana,bioquímica,2020-09-20,male,adolfo j pomar,brett13@hotmail.com,joshua,simpson,0,3337
+20, universidad abierta interamericana,licenciatura en ciencias de la computación,2020-12-20,male,diego lopez,yjones@yahoo.com,tyler,rogers,43,3180
+21, universidad abierta interamericana,ingeniería mecánica,2021-12-20,female,cañadon lagarto,zmoreno@gmail.com,natasha,lowe,24,9009
+22, universidad abierta interamericana,licenciatura en musicoterapia,2019-12-20,female,colonia el simbol,lewisronald@yahoo.com,valerie,peters,22,3074
+23, universidad abierta interamericana,agronomía,2021-01-21,male,colonia campo piaggio,hardingnicole@gmail.com,joseph,byrd,53,2252
+24, universidad abierta interamericana,licenciatura en ciencia política ,2019-10-20,male,colonia belga americana,breyes@hotmail.com,christopher,carr,15,3244
+25, universidad abierta interamericana,licenciatura en terapia ocupacional,2020-11-20,male,villa ruiz,jack55@gmail.com,clinton,herrera,5,6705
+26, universidad abierta interamericana,licenciatura en musicoterapia,2021-01-21,male,9 de julio,john83@gmail.com,fred,pearson,3,6500
+27, universidad abierta interamericana,licenciatura en sociología ,2021-11-20,female,cameron,adriennerobles@gmail.com,amanda,mullins,0,9017
+28, universidad abierta interamericana,farmacia,2021-10-20,male,diego de alvear,bbender@gmail.com,roger,baker,19,6036
+29, universidad abierta interamericana,licenciatura en ciencia política ,2021-10-20,male,alto lindo,burnettmatthew@yahoo.com,mathew,stone,8,5883
+30, universidad abierta interamericana,contador público ,2021-11-20,male,colonia santa rosa,ashleymccoy@gmail.com,gregory,berg,21,1816
+31, universidad abierta interamericana,licenciatura en ciencias ambientales,2020-11-20,female,costa brava,salinasheather@gmail.com,stacy,ramirez,2,2914
+32, universidad abierta interamericana,actuario ,2019-11-20,male,banda varela,kelly21@gmail.com,jeremy,wilson,18,4700
+33, universidad abierta interamericana,arquitectura,2019-12-20,female,villa hipodromo,jacksonrachel@gmail.com,tammy,mendez,7,5547
+34, universidad abierta interamericana,contador público ,2021-01-21,male,alto las lechuzas,gregory49@hotmail.com,ryan,graham,18,4147
+35, universidad abierta interamericana,diseño de imagen y sonido,2019-10-20,female,planchada banderita,jeffery18@gmail.com,rachel,webb,25,3370
+36, universidad abierta interamericana,licenciatura en planificación y diseño del paisaje,2019-10-20,female,cangrejillos,pageadam@gmail.com,margaret,hess,0,4644
+37, universidad abierta interamericana,licenciatura en kinesiología y fisiatría,2020-01-21,male,los cardos,aprilmoreno@hotmail.com,shawn,dean,0,2533
+38, universidad abierta interamericana,contador público ,2020-01-21,female,cuartel vii,robertssamantha@hotmail.com,stacey,williams,0,6050
+39, universidad abierta interamericana,ingeniería en informática,2020-01-21,female,bonpland norte,pstewart@hotmail.com,lisa,rodriguez,52,3318
+40, universidad abierta interamericana,bioquímica,2020-12-20,female,la querencia,davidlisa@yahoo.com,paula,barnes,0,2912
+41, universidad abierta interamericana,licenciatura en ciencia política ,2019-10-20,male,san francisco solano,twagner@yahoo.com,grant,combs,0,1881
+42, universidad abierta interamericana,técnico para bioterios ,2020-11-20,male,colonia baron,palmertiffany@yahoo.com,phillip,gutierrez,44,6315
+43, universidad abierta interamericana,contador público ,2021-11-20,female,san isidro,carterjeremy@gmail.com,yvette,tate,42,1642
+44, universidad abierta interamericana,agronomía,2021-10-20,male,banfield,joneslawrence@gmail.com,darrell,burnett,0,1828
+45, universidad abierta interamericana,licenciatura en ciencias de la computación,2020-01-21,male,de bruyn,ashley51@hotmail.com,christian,hays,0,6031
+46, universidad abierta interamericana,licenciatura en musicoterapia,2021-01-21,male,gobernador roca,mhuynh@yahoo.com,daniel,robinson,0,3324
+47, universidad abierta interamericana,diseño industrial,2020-01-21,male,achalco,sandrawright@gmail.com,leonard,snyder,0,4234
+48, universidad abierta interamericana,ingeniería electrónica,2021-01-21,female,isidro casanova,ruiztodd@hotmail.com,amanda,ryan,8,1765
+49, universidad abierta interamericana,ciencias veterinarias,2020-09-20,male,aldea beleiro,johnhughes@hotmail.com,greg,wolf,10,9037
+50, universidad abierta interamericana,bioquímica,2019-11-20,male,villa santos tesei,edwardjacobs@gmail.com,seth,peters,0,1688
+51, universidad abierta interamericana,licenciatura en planificación y diseño del paisaje,2021-01-21,male,balsa,david60@hotmail.com,joseph,mullen,39,6070
+52, universidad abierta interamericana,licenciatura en ciencia política ,2020-11-20,male,piamonte,jessica24@hotmail.com,brian,andrews,16,2529
+53, universidad abierta interamericana,ingeniería electrónica,2020-12-20,female,los laureles,kwilson@yahoo.com,carly,hill ,0,3199
+54, universidad abierta interamericana,ingeniería en informática,2020-10-20,female,algarrobo grande,jacquelinevasquez@hotmail.com,melissa,miller,0,5435
+55, universidad abierta interamericana,actuario ,2020-09-20,male,catamontaña,davisjustin@hotmail.com,edward,mcmillan,33,4603
+56, universidad abierta interamericana,farmacia,2021-09-20,male,bauer y sigel,woodssandra@gmail.com,benjamin,gallagher,8,2403
+57, universidad abierta interamericana,agronomía,2021-01-21,female,arenales,lcampbell@yahoo.com,megan,bonilla,0,5539
+58, universidad abierta interamericana,licenciatura en producción de bioimagenes,2020-11-20,male,juan f ibarra,bkramer@gmail.com,edwin,hart,0,6551
+59, universidad abierta interamericana,licenciatura en terapia ocupacional,2019-10-20,female,colonia los zapallos,hsmith@hotmail.com,erika,jensen,0,3003
+60, universidad abierta interamericana,actuario ,2021-01-21,female,ingeniero allan,ajuarez@hotmail.com,stephanie,knight,0,1891
+61, universidad abierta interamericana,bioquímica,2020-10-20,male,cerro aconcagua,leefinley@yahoo.com,andrew,ross,17,5500
+62, universidad abierta interamericana,contador público ,2021-12-20,female,arroyo san juan,harrisbrittany@gmail.com,maria,carson,50,3409
+63, universidad abierta interamericana,licenciatura en ciencia y tecnología de alimentos,2020-11-20,female,colonia la oracion,rhondachaney@gmail.com,jane,henderson,0,6307
+64, universidad abierta interamericana,licenciatura en ciencia y tecnología de alimentos,2021-10-20,female,coronel pringles,katherinelopez@hotmail.com,sharon,lyons,28,7530
+65, universidad abierta interamericana,ingeniería mecánica,2020-09-20,male,angaco norte,adam52@gmail.com,michael,wolf,0,5415
+66, universidad abierta interamericana,técnico para bioterios ,2019-11-20,female,avanzada,bakerian@yahoo.com,adriana,white,33,5738
+67, universidad abierta interamericana,licenciatura en artes,2020-12-20,male,gobernador duval,coryjohnson@hotmail.com,thomas,porter,19,8336
+68, universidad abierta interamericana,licenciatura en sociología ,2021-09-20,female,empalme san carlos,myersnicholas@gmail.com,nancy,smith,0,3007
+69, universidad abierta interamericana,licenciatura en producción de bioimagenes,2019-11-20,male,las palmas,charles80@gmail.com,zachary,james,0,2806
+70, universidad abierta interamericana,licenciatura en kinesiología y fisiatría,2021-10-20,male,ezpeleta este,brandonpeterson@hotmail.com,joseph,taylor,18,1882
+71, universidad abierta interamericana,arquitectura,2020-10-20,female,huanguelen,joeturner@hotmail.com,sara,brown,10,7545
+72, universidad abierta interamericana,ingeniería electrónica,2019-10-20,female,colonia sere,alyssaramirez@hotmail.com,christy,knight,3,6459
+73, universidad abierta interamericana,ingeniería en informática,2020-10-20,male,alanices,santosantonio@yahoo.com,james,johnson,23,5771
+74, universidad abierta interamericana,licenciatura en ciencias antropológicas,2020-12-20,female,ambrosetti,jonathanshort@yahoo.com,angela,blankenship,34,2352
+75, universidad abierta interamericana,licenciatura en kinesiología y fisiatría,2020-12-20,female,estacion uspallata,john96@gmail.com,sheila,tran,3,5551
+76, universidad abierta interamericana,licenciatura en ciencias biológicas,2021-01-21,female,abra verde,davidgibson@gmail.com,tamara,osborn,0,5470
+77, universidad abierta interamericana,técnico para bioterios ,2019-12-20,male,alto blanco,cmcknight@yahoo.com,derrick,roth,9,5700
+78, universidad abierta interamericana,bioquímica,2020-10-20,male,bahia san blas,robertsmarie@gmail.com,eric,stewart,0,8506
+79, universidad abierta interamericana,diseño de imagen y sonido,2021-01-21,male,bajo de los sueldos,jeremy74@hotmail.com,robert,herring,16,4151
+80, universidad abierta interamericana,agronomía,2020-12-20,male,ayacucho,mark38@yahoo.com,chase,wilson,42,7150
+81, universidad abierta interamericana,licenciatura en terapia ocupacional,2020-10-20,female,campo coubert,tgreene@yahoo.com,nicole,garcia,0,3056
+82, universidad abierta interamericana,agronomía,2020-09-20,female,virrey del pino,jameslambert@gmail.com,allison,smith,21,1763
+83, universidad abierta interamericana,licenciatura en ciencias ambientales,2019-11-20,male,arroyo,piercedaniel@hotmail.com,matthew,dunn,0,3300
+84, universidad abierta interamericana,diseño de imagen y sonido,2021-09-20,female,rio mayo,garzatim@yahoo.com,debbie,duncan,23,9030
+85, universidad abierta interamericana,licenciatura en terapia ocupacional,2019-10-20,female,casalins,ybridges@hotmail.com,megan,hall,0,7225
+86, universidad abierta interamericana,ciencias veterinarias,2020-10-20,female,valle de las leñas,smithkyle@hotmail.com,erin,stevens,0,5612
+87, universidad abierta interamericana,licenciatura en ciencias de la computación,2019-10-20,male,alvarez,rayperez@gmail.com,andrew,serrano,0,2107
+88, universidad abierta interamericana,licenciatura en ciencias geológicas,2019-10-20,male,achico,malonesusan@yahoo.com,charles,hamilton,0,8315
+89, universidad abierta interamericana,licenciatura en psicología,2019-10-20,male,isla victoria,traceyjohnson@gmail.com,george,barnes,22,8400
+90, universidad abierta interamericana,licenciatura en terapia ocupacional,2019-10-20,male,juan vucetich ex dr r levene,brookschristine@gmail.com,thomas,tapia,22,1894
+91, universidad abierta interamericana,licenciatura en administración ,2021-09-20,female,florida,anthonywilliams@hotmail.com,lori,elliott,13,1602
+92, universidad abierta interamericana,licenciatura en ciencias de la computación,2020-01-21,female,kilometro 47,schneiderbrian@hotmail.com,stephanie,lee,8,5624
+93, universidad abierta interamericana,licenciatura en producción de bioimagenes,2021-12-20,male,el zorro,marymartinez@yahoo.com,david,young,0,8151
+94, universidad abierta interamericana,arquitectura,2020-01-21,male,fortin irene,amber60@hotmail.com,charles,kim,38,7316
+95, universidad abierta interamericana,licenciatura en producción de bioimagenes,2021-09-20,male,colonia 1 de mayo,velasquezgloria@hotmail.com,ryan,gardner,34,3272
+96, universidad abierta interamericana,arquitectura,2019-10-20,female,apostoles,angelageorge@yahoo.com,jennifer,strickland,50,3350
+97, universidad abierta interamericana,licenciatura en producción de bioimagenes,2020-01-21,male,9 de julio,nathangarrett@gmail.com,francisco,mitchell,0,6500
+98, universidad abierta interamericana,licenciatura en musicoterapia,2020-01-21,male,anguil,taylorlinda@gmail.com,jeffrey,rogers,20,6326
+99, universidad abierta interamericana,técnico para bioterios ,2019-10-20,male,belgrano,barbararoberts@gmail.com,jeremy,medina,8,5439
+100, universidad abierta interamericana,ciencias veterinarias,2020-01-21,male,bahia solano,petersjoshua@hotmail.com,thomas,vazquez,40,9003
+101, universidad abierta interamericana,licenciatura en ciencias de la computación,2019-11-20,male,algarrobal,donaldferguson@yahoo.com,joshua,long,26,4600
+102, universidad abierta interamericana,ingeniería mecánica,2021-10-20,female,blanca grande,jallen@yahoo.com,amy,olsen,13,6561
+103, universidad abierta interamericana,licenciatura en musicoterapia,2019-10-20,male,almirante brown,ruben18@gmail.com,randy,west,14,3701
+104, universidad abierta interamericana,diseño industrial,2020-01-21,female,graciarena,james97@yahoo.com,laura,terry,0,6335
+105, universidad abierta interamericana,diseño industrial,2019-12-20,female,buena esperanza,madisonstewart@gmail.com,carol,powell,41,8360
+106, universidad abierta interamericana,técnico para bioterios ,2021-10-20,male,carmen de areco,woodwardpatrick@gmail.com,joshua,harrison ,1,6725
+107, universidad abierta interamericana,contador público ,2019-12-20,male,carbometal,iboyd@hotmail.com,shawn,craig,0,5505
+108, universidad abierta interamericana,licenciatura en ciencias antropológicas,2020-09-20,male,las toninas,melaniecampbell@hotmail.com,matthew,mercado,34,7106
+109, universidad abierta interamericana,licenciatura en ciencias geológicas,2021-12-20,male,puerto ojo de agua,rebeccagarza@hotmail.com,scott,anderson,39,8409
+110, universidad abierta interamericana,licenciatura en ciencias de la educación ,2020-11-20,male,agua colorada,michael92@gmail.com,mark,mendez,49,5383
+111, universidad abierta interamericana,diseño de imagen y sonido,2021-01-21,female,est jauregui va flandria,cory49@yahoo.com,jamie,turner,0,6706
+112, universidad abierta interamericana,licenciatura en terapia ocupacional,2020-01-21,male,coronel pringles,margaretpena@gmail.com,christopher,huff,6,7530
+113, universidad abierta interamericana,licenciatura en sociología ,2021-11-20,male,cañadon de los indios,ajohnson@hotmail.com,mark,barton,0,8375
+114, universidad abierta interamericana,ingeniería mecánica,2021-11-20,female,juan vucetich ex dr r levene,allisonpadilla@hotmail.com,carol,williams,6,1894
+115, universidad abierta interamericana,farmacia,2020-10-20,male,centro agricola el pato,hrussell@gmail.com,randall,flores,52,1893
+116, universidad abierta interamericana,licenciatura en artes,2020-01-21,male,agua de la piedra,josephjohnson@gmail.com,micheal,kelly,43,5475
+117, universidad abierta interamericana,ingeniería mecánica,2021-10-20,female,alfalad,wileykara@gmail.com,kimberly,duffy,0,6555
+118, universidad abierta interamericana,contador público ,2020-12-20,male,planicie banderita,akelly@yahoo.com,robert,dyer,0,8301
+119, universidad abierta interamericana,licenciatura en psicología,2021-09-20,female,asuncion,sean97@gmail.com,eileen,simon,19,5535
+120, universidad abierta interamericana,licenciatura en ciencias ambientales,2020-09-20,male,asuncion,brittney56@gmail.com,joseph,harris,29,5535
+121, universidad abierta interamericana,bioquímica,2020-11-20,female,barrio carosio,mitchelljonathan@gmail.com,janice,dillon,0,6000
+122, universidad abierta interamericana,licenciatura en ciencias geológicas,2020-01-21,male,las quintas,wigginsthomas@gmail.com,mark,russell,0,2200
+123, universidad abierta interamericana,bioquímica,2021-09-20,male,estrada,timothy03@hotmail.com,robert,robinson,42,2409
+124, universidad abierta interamericana,ingeniería mecánica,2019-12-20,female,colonia lote 12,bcantu@gmail.com, carmen,martinez,12,3543
+125, universidad abierta interamericana,licenciatura en musicoterapia,2021-11-20,male,la rosa,hortonjennifer@gmail.com,douglas,young,0,8133
+126, universidad abierta interamericana,licenciatura en ciencia política ,2020-11-20,male,villa de mayo,zunigawilliam@hotmail.com,evan,dickson,15,1614
+127, universidad abierta interamericana,ingeniería mecánica,2020-10-20,female,colonia california,xknight@gmail.com,tanya,coleman,0,3005
+128, universidad abierta interamericana,técnico para bioterios ,2019-12-20,female,cura malal,brandonjones@hotmail.com,angela,ward,0,7548
+129, universidad abierta interamericana,licenciatura en gestión de agroalimentos,2019-10-20,male,diego lopez,scott32@hotmail.com,willie,white,1,3180
+130, universidad abierta interamericana,ingeniería en informática,2019-11-20,female,badano,pboyle@yahoo.com,olivia,hill,0,6403
+131, universidad abierta interamericana,ingeniería mecánica,2021-01-21,female,agua de la mula,ttaylor@gmail.com,margaret,armstrong,0,5600
+132, universidad abierta interamericana,diseño de imagen y sonido,2020-11-20,male,aero club rosario,gonzaleskim@gmail.com,mark,kelly,0,2132
+133, universidad abierta interamericana,farmacia,2021-09-20,female,arauco,carolflores@yahoo.com,brittany,taylor,45,5311
+134, universidad abierta interamericana,licenciatura en ciencia y tecnología de alimentos,2020-10-20,male,adolfo gonzales chaves,lauren05@yahoo.com,eric,buchanan,30,7513
+135, universidad abierta interamericana,licenciatura en ciencias ambientales,2021-11-20,female,costa del este,josephmullins@yahoo.com,alexis,crawford,2,7108
+136, universidad abierta interamericana,licenciatura en ciencias geológicas,2020-01-21,female,cucha cucha,maryjones@hotmail.com,alice,jordan,0,6746
+137, universidad abierta interamericana,actuario ,2020-09-20,male,barrio belgrano,stephanie14@gmail.com,paul,english,0,4146
+138, universidad abierta interamericana,licenciatura en kinesiología y fisiatría,2021-11-20,male,bañadito viejo,tracey55@gmail.com,david,becker,0,5709
+139, universidad abierta interamericana,licenciatura en relaciones del trabajo ,2019-12-20,male,colonia san francisco,yfoster@yahoo.com,jeremiah,lawson,44,2527
+140, universidad abierta interamericana,ciencias veterinarias,2019-10-20,female,el jumeal,warmstrong@hotmail.com,brenda,delgado,14,5365
+141, universidad abierta interamericana,licenciatura en artes,2019-10-20,male,la lucila,jacqueline11@gmail.com,kevin,thornton,0,3072
+142, universidad abierta interamericana,arquitectura,2020-01-21,female,arenales,tateaaron@gmail.com,casey,woodward,0,5539
+143, universidad abierta interamericana,licenciatura en administración ,2019-10-20,male,bajo caracoles,georgejones@hotmail.com,jonathan,ruiz,1,9315
+144, universidad abierta interamericana,licenciatura en gestión de agroalimentos,2020-11-20,female,el perdido est jose guisasola,milesstephen@gmail.com,heather,price,53,8156
+145, universidad abierta interamericana,licenciatura en producción de bioimagenes,2019-12-20,male,casablanca,ryan63@hotmail.com,william,rosario,27,2317
+146, universidad abierta interamericana,licenciatura en psicología,2019-10-20,female,costa del rio azul,kellyyvette@hotmail.com,emily,reese,0,8430
+147, universidad abierta interamericana,técnico para bioterios ,2021-01-21,male,el carmen,stewartgary@yahoo.com,christopher,johnson,46,4128
+148, universidad abierta interamericana,farmacia,2020-11-20,female,las palmas,pmedina@hotmail.com,nicole,webb,22,2806
+149, universidad abierta interamericana,licenciatura en ciencias biológicas,2021-10-20,male,adrogue,rhendricks@yahoo.com,jason,phelps,11,1846
+150, universidad abierta interamericana,licenciatura en ciencias de la educación ,2020-09-20,male,algarrobal abajo,rebeccaray@yahoo.com,gary,becker,10,5541
+151, universidad abierta interamericana,bioquímica,2020-10-20,male,colonia jauregui,jennifermontgomery@hotmail.com,gregory,duncan,0,5622

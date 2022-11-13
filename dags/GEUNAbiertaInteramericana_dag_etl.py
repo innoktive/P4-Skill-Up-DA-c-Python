@@ -2,7 +2,8 @@ from airflow import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
+from dateutil.relativedelta import relativedelta
 import logging
 import pandas as pd
 import os
@@ -13,6 +14,7 @@ SCHEMA = 'training'
 
 SQL_FILE = 'GEUNAbiertainteramericana.sql'
 CSV_NAME = 'GEUNAbiertaInteramericana_select.csv'
+TXT_NAME = 'GEUNAbiertaInteramericana_process.txt'
 
 LOGGER_NAME = 'Logger Univ. Abierta Interamericana'
 LOGGER_MSG = ''
@@ -43,9 +45,46 @@ def extract():
 
 def transform():
     full_path = os.path.join(ABSOLUTE_PATH, '../files/')
-    df = pd.read_csv(full_path + CSV_NAME)
+    df = pd.read_csv(full_path + CSV_NAME, index_col=0)
 
-    # continue with transform.
+
+    full_path = os.path.join(ABSOLUTE_PATH, '../assets/')
+    postal_codes = pd.read_csv(full_path + 'codigos_postales.csv')
+    postal_codes.rename(columns={'codigo_postal': 'postal_code', 'localidad': 'location'}, inplace=True)
+    postal_codes['location'] = postal_codes['location'].str.lower()
+
+
+    df['university'] = df['university'].str.replace('-', ' ').str.lower()
+
+    df['career'] = df['career'].str.replace('-', ' ').str.lower()
+
+    df['inscription_date'] = pd.to_datetime(df['inscription_date'], format='%y/%b/%d')
+
+    df['name'] = df['name'].str.lower().str.replace('(dr.-)|(-md)', ' ', regex=True)
+    name = df['name'].str.split('-', expand=True)
+    name.columns = ['first_name', 'last_name']
+    idx = name['last_name'].isnull()
+    name.loc[idx, 'last_name'] = name.loc[idx, 'first_name']
+    name.loc[idx, 'first_name'] = ''
+    df.drop(columns='name', inplace=True)
+    df['first_name'] = name['first_name']
+    df['last_name'] = name['last_name']
+
+    df['gender'] = df['gender'].str.lower().map(lambda x: 'male' if x == 'm' else 'female')
+
+    df['age'] = pd.to_datetime(df['birth_date'], format='%y/%b/%d')\
+                .map(lambda x: relativedelta(date.today(), x).years if x <= pd.Timestamp('now') else 0)
+    df.drop(columns='birth_date', inplace=True)
+
+    df['location'] = df['location'].str.lower().str.replace('-', ' ')
+
+    postal_codes_dict = dict(zip(postal_codes['location'], postal_codes['postal_code']))
+    df['postal_code'] = df['location'].map(postal_codes_dict)
+
+    df['email'] = df['email'].str.lower()
+
+    full_path = os.path.join(ABSOLUTE_PATH, '../datasets/')
+    df.to_csv(full_path + TXT_NAME)
 
 
 univ_abierta_interamericana_DAG = DAG(
