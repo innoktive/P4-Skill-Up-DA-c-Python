@@ -9,6 +9,7 @@ docker-compose.override.yml
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 679f1fc (Included yaml file to be able to write files folder)
@@ -19,3 +20,5 @@ Pandas_Jujuy.py
 >>>>>>> f1c27ee (Update .gitignore)
 pandas_palermo.py
 >>>>>>> acc9389 (Update .gitignore)
+=======
+>>>>>>> 9f77cd0 (updated gitignore)
