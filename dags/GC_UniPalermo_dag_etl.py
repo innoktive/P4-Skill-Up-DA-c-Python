@@ -6,6 +6,8 @@ from airflow.models import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 filepath = Path(r'/usr/local/airflow/files/GC_UniPalermo.csv')
@@ -13,6 +15,7 @@ filepath.parent.mkdir(parents=True, exist_ok=True)
 df_columns=['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
 postal_codes_path=(r'/usr/local/airflow/assets/codigos_postales.csv')
 =======
+>>>>>>> 3637f8b510fb2064abc850d1636e6c63dbc28a05
 from airflow.models import Variable
 from airflow.operators.bash import BashOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
@@ -21,6 +24,8 @@ from airflow.providers.postgres.operators.postgres import PostgresOperator
 filepath = Path(r'/usr/local/airflow/files/GC_UniPalermo.csv')
 filepath.parent.mkdir(parents=True, exist_ok=True)
 df_columns = ['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
+<<<<<<< HEAD
+=======
 >>>>>>> 3d393a9 (Included succesful extraction DAG (csv in files folder))
 =======
 
@@ -29,6 +34,7 @@ filepath.parent.mkdir(parents=True, exist_ok=True)
 df_columns=['university','career','inscription_date','last_name','gender','birth_date','age','postal_code','location','email']
 postal_codes_path=(r'/usr/local/airflow/assets/codigos_postales.csv')
 >>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
+>>>>>>> 3637f8b510fb2064abc850d1636e6c63dbc28a05
 
 def get_palermo_info(**kwargs):
     with open(r'/usr/local/airflow/include/Palermo.sql') as sqlfile:
@@ -50,6 +56,11 @@ def create_palermo_df(ti):
     print(palermo_df)
     palermo_df.to_csv(filepath, index=False, header=True)
 
+<<<<<<< HEAD
+with DAG(
+    dag_id='prueba_palermo',
+    schedule_interval ='@daily',
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -110,6 +121,7 @@ with DAG(
 =======
     schedule_interval ='@hourly',
 >>>>>>> 699e9be (modified DAGs to run succesfully in airflow)
+>>>>>>> 3637f8b510fb2064abc850d1636e6c63dbc28a05
     start_date = datetime(year=2022, month=11, day=8),
     catchup=False
 ) as dag:
@@ -117,6 +129,9 @@ with DAG(
     task_get_palermo_info = PythonOperator(
         task_id='get_palermo_info',
         python_callable=get_palermo_info,
+<<<<<<< HEAD
+        do_xcom_push=True
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
         do_xcom_push=True,
@@ -128,10 +143,17 @@ with DAG(
         do_xcom_push=True,
         retries=5
 >>>>>>> 699e9be (modified DAGs to run succesfully in airflow)
+>>>>>>> 3637f8b510fb2064abc850d1636e6c63dbc28a05
     )
     #2. Save palermo data in dataframe
     task_create_palermo_df = PythonOperator(
         task_id='create_palermo_df',
+<<<<<<< HEAD
+        python_callable=create_palermo_df
+    )
+    
+    task_get_palermo_info >> task_create_palermo_df
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
         python_callable=create_palermo_df,
@@ -159,3 +181,4 @@ with DAG(
 =======
     task_get_palermo_info >> task_create_palermo_df >> task_transform_palermo_df
 >>>>>>> 0dd7351 (Update Group C DAGS to include transform functions)
+>>>>>>> 3637f8b510fb2064abc850d1636e6c63dbc28a05
