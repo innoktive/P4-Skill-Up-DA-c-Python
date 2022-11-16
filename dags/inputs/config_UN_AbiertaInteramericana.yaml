@@ -1,0 +1,13 @@
+dag_id: 'GEUNAbiertaInteramericana'
+schedule_interval: '@hourly'
+retries: 5
+
+connection_id: 'alkemy_db'
+db_schema: 'training'
+
+sql_file_name: 'GEUNAbiertaInteramericana.sql'
+results_file_name: 'GEUNAbiertaInteramericana'
+
+logger_name: 'Logger Univ. Abierta Interamericana'
+
+transform_function: 'transform_un_abierta_interamericana'
