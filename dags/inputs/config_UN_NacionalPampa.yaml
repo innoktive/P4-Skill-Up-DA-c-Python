@@ -1,0 +1,13 @@
+dag_id: 'GEUNNacionalPampa'
+schedule_interval: '@hourly'
+retries: 5
+
+connection_id: 'alkemy_db'
+db_schema: 'training'
+
+sql_file_name: 'GEUNNacionalPampa.sql'
+results_file_name: 'GEUNNacionalPampa'
+
+logger_name: 'Logger Univ. Nacional Pampa'
+
+transform_function: 'transform_GEUNNacionalPampa'

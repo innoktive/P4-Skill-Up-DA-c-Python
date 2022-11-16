@@ -19,7 +19,7 @@ def _log():
     logging.basicConfig(level=logging.INFO,
         format='%(asctime)s - %(name)s - %(message)s',
         datefmt='%Y-%m-%d')
-    logger = logging.getLogger('Logger Univ. Abierta Interamericana')
+    logger = logging.getLogger('Logger Univ. Nacional Pampa')
     logger.info('%s', LOGGER_MSG)
 
 
@@ -27,18 +27,18 @@ def extract():
     _log()
     
     full_path = os.path.join(ABSOLUTE_PATH, '../include/')
-    with open(full_path + 'GEUNAbiertaInteramericana.sql') as f:
+    with open(full_path + 'GEUNNacionalPampa.sql') as f:
         query = f.read()
     
     hook = PostgresHook(postgres_conn_id='alkemy_db', schema='training')
     df = hook.get_pandas_df(sql=query)
     full_path = os.path.join(ABSOLUTE_PATH, '../files/')
-    df.to_csv(full_path + 'GEUNAbiertaInteramericana' + '_select.csv')
+    df.to_csv(full_path + 'GEUNNacionalPampa' + '_select.csv')
 
 
 def transform():
     full_path = os.path.join(ABSOLUTE_PATH, '../files/')
-    df = pd.read_csv(full_path + 'GEUNAbiertaInteramericana' + '_select.csv', index_col=0)
+    df = pd.read_csv(full_path + 'GEUNNacionalPampa' + '_select.csv', index_col=0)
 
 
     full_path = os.path.join(ABSOLUTE_PATH, '../assets/')
@@ -49,10 +49,10 @@ def transform():
     transform_function = {'GEUNAbiertainteramericana': GE_transform.transform_GEUNAbiertaInteramericana,
                             'GEUNNacionalPampa': GE_transform.transform_GEUNNacionalPampa
     }
-    transform_function['GEUNAbiertaInteramericana'](df, postal_codes)
+    transform_function['GEUNNacionalPampa'](df, postal_codes)
 
     full_path = os.path.join(ABSOLUTE_PATH, '../datasets/')
-    df.to_csv(full_path + 'GEUNAbiertaInteramericana' + '_process.txt')
+    df.to_csv(full_path + 'GEUNNacionalPampa' + '_process.txt')
 
 
 univ_abierta_interamericana_DAG = DAG(
