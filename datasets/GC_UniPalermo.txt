@@ -186,7 +186,7 @@ universidad de palermo,licenciatura en psicología,2021/01/24,angela ward,female
 universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/11/07,michele wright,female,10,6220,bernardo larroude,hbrowning@yahoo.com
 universidad de palermo,bioquímica,2020/12/07,kristin mcdonald,female,99,7172,colonia ferrari,daviesjohnny@yahoo.com
 universidad de palermo,licenciatura en administración,2020/12/16,tammy gomez,female,92,3085,pilar,rebeccakim@gmail.com
-universidad de palermo,licenciatura en relaciones del trabajo,2021/01/05,jessica sosa,female,89,2154,capitan bermudez,taylorlamb@hotmail.com
+universidad de palermo,licenciatura en relaciones del trabajo,2021/01/05,jessica sosa,female,90,2154,capitan bermudez,taylorlamb@hotmail.com
 universidad de palermo,diseño de imagen y sonido,2020/10/22,jessica guzman,female,5,5551,estacion uspallata,jennifer74@gmail.com
 universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/09/30,hannah rodriguez,female,84,5449,aguango,sjenkins@hotmail.com
 universidad de palermo,licenciatura en sociología,2020/11/01,robert thompson,male,4,3586,campo yaguarete,kristinanewman@yahoo.com
@@ -201,7 +201,7 @@ universidad de palermo,agronomía,2020/11/29,christopher miller,male,3,2451,colo
 universidad de palermo,licenciatura en ciencias de la computación,2020/10/06,maria kelly,female,23,9105,angostura,kbarrett@yahoo.com
 universidad de palermo,licenciatura en ciencia política,2020/10/25,cynthia robinson,female,77,1623,barrio garin norte,lindalee@gmail.com
 universidad de palermo,diseño industrial,2020/10/02,lori robinson,female,15,4726,capayan,cmorales@hotmail.com
-universidad de palermo,agronomía,2020/10/19,stephanie hayes,female,83,6101,villa saboya,christophergray@gmail.com
+universidad de palermo,agronomía,2020/10/19,stephanie hayes,female,84,6101,villa saboya,christophergray@gmail.com
 universidad de palermo,contador público,2020/11/05,angela sanders,female,20,6022,la oriental,harrisxavier@gmail.com
 universidad de palermo,licenciatura en ciencias biológicas,2020/11/25,jonathon adams,male,4,5535,asuncion,jessicamaldonado@hotmail.com
 universidad de palermo,licenciatura en sociología,2020/11/10,lisa mathis,female,35,5547,villa hipodromo,stevensearl@hotmail.com
@@ -515,7 +515,7 @@ universidad de palermo,actuario,2020/09/21,christopher patterson,male,94,5607,co
 universidad de palermo,licenciatura en gestión de agroalimentos,2020/10/19,mariah clark,female,53,4101,agua negra,rowejonathan@hotmail.com
 universidad de palermo,ingeniería mecánica,2020/10/03,steve gray,male,87,3283,colonia mabragaña,johnscott@gmail.com
 universidad de palermo,medicina,2020/11/26,christian morrow,male,87,3360,arroyo fedor,whenderson@yahoo.com
-universidad de palermo,farmacia,2020/10/29,joanne diaz,female,24,5329,amuschina,howardroger@yahoo.com
+universidad de palermo,farmacia,2020/10/29,joanne diaz,female,25,5329,amuschina,howardroger@yahoo.com
 universidad de palermo,licenciatura en musicoterapia,2020/09/21,tonya gaines,female,87,6241,el dia,courtneyortiz@yahoo.com
 universidad de palermo,licenciatura en ciencias biológicas,2021/01/19,sarah parker,female,89,1981,desvio kilometro 55,williamhoward@yahoo.com
 universidad de palermo,licenciatura en kinesiología y fisiatría,2020/11/11,austin adams,male,19,6701,carlos keen,tgamble@yahoo.com
@@ -547,7 +547,7 @@ universidad de palermo,licenciatura en ciencias geológicas,2020/09/22,amy harpe
 universidad de palermo,licenciatura en kinesiología y fisiatría,2020/09/10,stephanie martin,female,1,4711,ambato,cainlaura@yahoo.com
 universidad de palermo,licenciatura en administración,2021/01/29,mark barton,male,13,8514,laguna del barro,jbailey@gmail.com
 universidad de palermo,técnico para bioterios,2020/11/15,gloria williams,female,39,1852,burzaco,lori92@gmail.com
-universidad de palermo,licenciatura en sociología,2021/01/09,gilbert hopkins,male,12,5609,aristides villanueva,amandablack@yahoo.com
+universidad de palermo,licenciatura en sociología,2021/01/09,gilbert hopkins,male,13,5609,aristides villanueva,amandablack@yahoo.com
 universidad de palermo,licenciatura en terapia ocupacional,2021/01/13,kristin taylor,female,88,6105,cañada seca,bgreen@hotmail.com
 universidad de palermo,licenciatura en sociología,2021/01/01,rebecca hernandez,female,47,4713,ocho vados,matthewquinn@yahoo.com
 universidad de palermo,farmacia,2020/11/07,jennifer lewis,female,18,3380,9 de julio kilometro 20,scannon@gmail.com
@@ -634,7 +634,7 @@ universidad de palermo,licenciatura en relaciones del trabajo,2020/10/09,summer 
 universidad de palermo,farmacia,2020/09/19,craig york,male,2,6721,azcuenaga,nharris@yahoo.com
 universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/11/24,becky luna,female,9,3524,el campamento,vyoung@yahoo.com
 universidad de palermo,licenciatura en ciencias ambientales,2020/09/28,mary serrano,female,61,4711,ambato,cliffordbright@gmail.com
-universidad de palermo,técnico para bioterios,2021/01/06,erik russell,male,93,2318,aurelia,pperry@gmail.com
+universidad de palermo,técnico para bioterios,2021/01/06,erik russell,male,94,2318,aurelia,pperry@gmail.com
 universidad de palermo,ingeniería en informática,2020/11/04,marc smith,male,64,1893,centro agricola el pato,ododson@yahoo.com
 universidad de palermo,ingeniería electrónica,2020/09/04,timothy pratt,male,45,3252,aldea san jorge,qwatts@gmail.com
 universidad de palermo,medicina,2020/12/01,joseph barrett,male,26,3308,candelaria,ahowell@yahoo.com
@@ -645,7 +645,7 @@ universidad de palermo,licenciatura en administración,2020/10/05,terry duran,ma
 universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/10/02,jessica gordon,female,98,6505,dudignac,ismith@yahoo.com
 universidad de palermo,licenciatura en ciencias biológicas,2021/01/31,barry jones,male,4,6625,cañada la rica,sanchezveronica@yahoo.com
 universidad de palermo,licenciatura en ciencias geológicas,2020/09/24,tiffany smith,female,28,3358,cheroguita,charles46@hotmail.com
-universidad de palermo,arquitectura,2020/12/18,amy garcia,female,81,6500,9 de julio,michellemontoya@hotmail.com
+universidad de palermo,arquitectura,2020/12/18,amy garcia,female,82,6500,9 de julio,michellemontoya@hotmail.com
 universidad de palermo,bioquímica,2020/10/24,jenny thompson,female,16,1894,juan vucetich ex dr r levene,tranangelica@yahoo.com
 universidad de palermo,licenciatura en ciencias biológicas,2020/10/21,jennifer lopez,female,5,3230,arbol solo,mmills@gmail.com
 universidad de palermo,licenciatura en ciencias ambientales,2020/10/27,lori bradley,female,2,5750,alto de la leña,xharris@hotmail.com
@@ -712,7 +712,7 @@ universidad de palermo,arquitectura,2021/01/17,jacob chandler,male,74,1621,benav
 universidad de palermo,agronomía,2020/11/23,denise williams,female,50,3041,cacique ariacaiquin,briangarcia@gmail.com
 universidad de palermo,licenciatura en ciencias de la educación,2020/10/01,gail young,female,14,5632,colonia alvear,ojuarez@hotmail.com
 universidad de palermo,ciencias veterinarias,2021/01/22,thomas pham,male,63,6550,bolivar,elijahedwards@hotmail.com
-universidad de palermo,ingeniería electrónica,2020/12/02,cynthia cooper,female,27,9033,aldea apeleg,schwartzjulia@hotmail.com
+universidad de palermo,ingeniería electrónica,2020/12/02,cynthia cooper,female,28,9033,aldea apeleg,schwartzjulia@hotmail.com
 universidad de palermo,diseño industrial,2020/09/04,nathan yates,male,64,3476,el remanso,ginasilva@yahoo.com
 universidad de palermo,licenciatura en sociología,2020/12/03,ricky hoover,male,76,3505,arroyo quintana,williamcrawford@gmail.com
 universidad de palermo,licenciatura en musicoterapia,2020/09/13,john stevenson,male,36,8124,berraondo,jamiewilliams@yahoo.com
@@ -929,7 +929,7 @@ universidad de palermo,licenciatura en administración,2021/01/01,andrew mendoza
 universidad de palermo,licenciatura en producción de bioimagenes,2020/11/12,darius wright,male,15,5276,baldes de pacheco,kimberly46@gmail.com
 universidad de palermo,licenciatura en kinesiología y fisiatría,2020/11/21,bryan griffin,male,35,4133,la banda,perezwilliam@gmail.com
 universidad de palermo,licenciatura en musicoterapia,2020/11/15,david roberson,male,10,6213,lote 11 escuela 107,wanda34@yahoo.com
-universidad de palermo,licenciatura en producción de bioimagenes,2020/09/19,janet hines,female,6,8340,aguada florencio,tina57@gmail.com
+universidad de palermo,licenciatura en producción de bioimagenes,2020/09/19,janet hines,female,7,8340,aguada florencio,tina57@gmail.com
 universidad de palermo,licenciatura en ciencias biológicas,2020/12/27,helen clark,female,63,6623,indacochea,travis50@yahoo.com
 universidad de palermo,licenciatura en ciencias de la educación,2020/09/27,brenda avila,female,14,3465,arroyo casco,brianmiller@gmail.com
 universidad de palermo,licenciatura en sociología,2020/11/02,james smith,male,8,6330,arturo almaraz,ufoster@gmail.com
@@ -969,7 +969,7 @@ universidad de palermo,licenciatura en administración,2020/09/17,jose francis,m
 universidad de palermo,farmacia,2020/09/02,cynthia cohen,female,46,6400,barrio indio trompa,ugarcia@hotmail.com
 universidad de palermo,diseño de imagen y sonido,2020/09/12,christine bryant,female,84,2801,alto verde,dstrickland@hotmail.com
 universidad de palermo,actuario,2020/12/04,amanda anderson,female,45,8000,adela corti,victoria30@yahoo.com
-universidad de palermo,licenciatura en terapia ocupacional,2020/09/04,olivia murphy,female,25,3423,arañita,diane98@yahoo.com
+universidad de palermo,licenciatura en terapia ocupacional,2020/09/04,olivia murphy,female,26,3423,arañita,diane98@yahoo.com
 universidad de palermo,licenciatura en sociología,2021/01/02,jessica banks,female,72,5883,alto lindo,mmata@hotmail.com
 universidad de palermo,licenciatura en sociología,2020/11/02,albert banks,male,4,6705,villa ruiz,wmanning@hotmail.com
 universidad de palermo,licenciatura en ciencias geológicas,2020/09/03,bonnie gross,female,49,7316,fortin irene,amy35@yahoo.com
@@ -1123,7 +1123,7 @@ universidad de palermo,licenciatura en administración,2020/10/30,scott jennings
 universidad de palermo,actuario,2020/11/24,deborah taylor,female,0,5329,amuschina,thomasallison@gmail.com
 universidad de palermo,licenciatura en ciencias de la computación,2020/09/17,lance robinson,male,40,9013,cañadon seco,david07@yahoo.com
 universidad de palermo,licenciatura en ciencia política,2020/09/01,eric monroe,male,82,4605,alisos  de abajo,joseph69@gmail.com
-universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/12/29,rachel drake,female,77,3501,campo de galnasi,alexissmith@gmail.com
+universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/12/29,rachel drake,female,78,3501,campo de galnasi,alexissmith@gmail.com
 universidad de palermo,licenciatura en psicología,2020/09/01,mark smith,male,92,6743,coliqueo,ashleybarnes@gmail.com
 universidad de palermo,farmacia,2020/11/19,travis lloyd,male,68,3433,carrizal norte,anthony07@yahoo.com
 universidad de palermo,agronomía,2020/11/10,katelyn rivera,female,64,3428,estacion saladas,sandra31@yahoo.com
@@ -1277,19 +1277,19 @@ universidad de palermo,licenciatura en ciencias biológicas,2020/12/15,shannon b
 universidad de palermo,licenciatura en ciencias antropológicas,2020/12/20,jamie lowe,female,77,3263,1 de mayo,kwheeler@hotmail.com
 universidad de palermo,licenciatura en ciencias geológicas,2020/11/11,philip vaughn,male,43,4132,agua azul,millertiffany@yahoo.com
 universidad de palermo,ingeniería en informática,2020/12/09,joshua hebert,male,37,6017,chancay,rweaver@yahoo.com
-universidad de palermo,medicina,2020/09/30,holly jackson,female,10,2701,12 de agosto,chandlerbilly@gmail.com
+universidad de palermo,medicina,2020/09/30,holly jackson,female,11,2701,12 de agosto,chandlerbilly@gmail.com
 universidad de palermo,farmacia,2021/01/27,susan reyes,female,13,1849,claypole,millerstacy@hotmail.com
 universidad de palermo,ingeniería electrónica,2020/09/03,joseph johnson,male,47,5275,agua colorada,kennethnichols@hotmail.com
 universidad de palermo,licenciatura en ciencias biológicas,2021/01/21,tamara johnson,female,17,5405,agua y energia,wagnerjennifer@yahoo.com
 universidad de palermo,ingeniería mecánica,2021/01/01,alicia moore,female,88,1727,b los aromos san patricio,clynn@gmail.com
 universidad de palermo,licenciatura en ciencias biológicas,2021/01/23,rebecca harris,female,57,2216,campo raffo,michael48@hotmail.com
-universidad de palermo,licenciatura en administración,2021/01/18,george reed,male,15,7301,ariel,hollylewis@yahoo.com
+universidad de palermo,licenciatura en administración,2021/01/18,george reed,male,16,7301,ariel,hollylewis@yahoo.com
 universidad de palermo,ingeniería en informática,2020/12/17,stephanie martinez,female,73,7161,labarden,megan39@yahoo.com
 universidad de palermo,licenciatura en kinesiología y fisiatría,2020/09/12,craig stone,male,68,5300,amilgancho,ysmith@gmail.com
 universidad de palermo,licenciatura en ciencias antropológicas,2021/01/12,marc henry,male,78,3281,calera,dpeters@hotmail.com
 universidad de palermo,ingeniería electrónica,2020/09/15,nathaniel lane,male,83,5264,angelina,ricky06@hotmail.com
 universidad de palermo,arquitectura,2020/11/15,justin barnett,male,11,5400,desamparados,wobrien@gmail.com
-universidad de palermo,licenciatura en ciencias de la computación,2020/09/23,angel jacobs,female,78,9009,cañadon lagarto,sarah99@hotmail.com
+universidad de palermo,licenciatura en ciencias de la computación,2020/09/23,angel jacobs,female,79,9009,cañadon lagarto,sarah99@hotmail.com
 universidad de palermo,agronomía,2020/11/19,kenneth aguilar,male,77,1763,virrey del pino,dawn04@gmail.com
 universidad de palermo,medicina,2020/11/20,cassandra andrews,female,2,8105,aguara,thomasjennifer@gmail.com
 universidad de palermo,licenciatura en sociología,2020/09/03,emily jenkins,female,41,1636,la lucila,wdaniels@gmail.com
@@ -1364,7 +1364,7 @@ universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/1
 universidad de palermo,licenciatura en ciencia política,2020/09/18,courtney taylor,female,61,2907,general conesa,pbradley@hotmail.com
 universidad de palermo,técnico para bioterios,2020/12/30,jessica mckay,female,90,1815,escuela agricola don bosco,lauracopeland@hotmail.com
 universidad de palermo,licenciatura en sociología,2021/01/24,samuel hughes,male,12,9040,cañadon botello,jasonevans@yahoo.com
-universidad de palermo,licenciatura en artes,2021/01/18,eugene byrd,male,47,9210,cuesta del ternero,pughtimothy@yahoo.com
+universidad de palermo,licenciatura en artes,2021/01/18,eugene byrd,male,48,9210,cuesta del ternero,pughtimothy@yahoo.com
 universidad de palermo,licenciatura en ciencias de la educación,2020/11/06,emily brown,female,23,4716,amadores,riveraadam@hotmail.com
 universidad de palermo,licenciatura en administración,2021/01/03,mr. kevin orr,male,7,2506,correa,charlesrivers@yahoo.com
 universidad de palermo,diseño industrial,2020/10/03,nicole jackson,female,71,5612,valle de las leñas,wilsongilbert@yahoo.com
@@ -1514,7 +1514,7 @@ universidad de palermo,licenciatura en ciencias de la computación,2021/01/07,ni
 universidad de palermo,licenciatura en producción de bioimagenes,2020/11/20,robert armstrong,male,10,5405,agua y energia,samuellee@gmail.com
 universidad de palermo,bioquímica,2020/11/03,michael morgan,male,5,6305,atreuco,fmay@yahoo.com
 universidad de palermo,licenciatura en musicoterapia,2020/10/31,madison townsend,female,16,3515,capitan solari,dkent@yahoo.com
-universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/12/31,deanna jones,female,36,3188,colonia falco,qschroeder@yahoo.com
+universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2020/12/31,deanna jones,female,37,3188,colonia falco,qschroeder@yahoo.com
 universidad de palermo,licenciatura en psicología,2020/12/05,shannon dawson,female,38,1915,arbuco,bjackson@yahoo.com
 universidad de palermo,diseño de imagen y sonido,2020/10/16,cindy brooks,female,16,3017,bajo las tunas,ericapeterson@yahoo.com
 universidad de palermo,licenciatura en ciencias de la computación,2020/09/26,david hayes,male,61,7500,el carretero,wallacelindsay@yahoo.com
@@ -1528,7 +1528,7 @@ universidad de palermo,licenciatura en ciencias antropológicas,2020/12/14,alexi
 universidad de palermo,licenciatura en ciencias biológicas,2020/10/09,aaron aguilar,male,11,8214,colonia cazaux,martinalicia@hotmail.com
 universidad de palermo,licenciatura en administración,2020/10/17,ryan nelson,male,48,5500,cerro aconcagua,petersonluis@yahoo.com
 universidad de palermo,licenciatura en producción de bioimagenes,2020/12/29,daniel munoz,male,24,1665,jose clemente paz,ereyes@yahoo.com
-universidad de palermo,licenciatura en relaciones del trabajo,2020/11/02,jonathon scott,male,6,3585,el sombrerito,smithmatthew@gmail.com
+universidad de palermo,licenciatura en relaciones del trabajo,2020/11/02,jonathon scott,male,7,3585,el sombrerito,smithmatthew@gmail.com
 universidad de palermo,licenciatura en ciencias biológicas,2020/12/13,danny holmes,male,50,3332,capiovi,jensennancy@yahoo.com
 universidad de palermo,ingeniería mecánica,2020/10/30,christine kelley,female,95,9305,cañada de las vacas,barry91@gmail.com
 universidad de palermo,licenciatura en producción de bioimagenes,2020/10/24,lisa fisher,female,80,7207,el trigo,heidi47@hotmail.com
@@ -1587,7 +1587,7 @@ universidad de palermo,agronomía,2020/12/08,brittany watson,female,15,2154,capi
 universidad de palermo,licenciatura en ciencias geológicas,2020/10/12,cynthia adams,female,23,5595,cupiles,erik55@gmail.com
 universidad de palermo,farmacia,2020/12/30,heather barber,female,5,5374,catinzaco,kelly12@hotmail.com
 universidad de palermo,ingeniería mecánica,2020/12/24,jesse davis,male,25,4561,la chinaca,mark69@gmail.com
-universidad de palermo,licenciatura en ciencias ambientales,2020/10/29,nicole brooks,female,43,7639,cooper,stevensontrevor@hotmail.com
+universidad de palermo,licenciatura en ciencias ambientales,2020/10/29,nicole brooks,female,44,7639,cooper,stevensontrevor@hotmail.com
 universidad de palermo,licenciatura en ciencia y tecnología de alimentos,2021/01/23,tyrone bennett,male,16,7003,aceilan,taylorsarah@gmail.com
 universidad de palermo,diseño industrial,2021/01/31,jason barnett,male,97,5551,estacion uspallata,brucenancy@yahoo.com
 universidad de palermo,licenciatura en sociología,2020/12/14,angela larsen,female,88,7135,comandante giribone,jaredyoung@gmail.com
@@ -1647,7 +1647,7 @@ universidad de palermo,licenciatura en kinesiología y fisiatría,2020/10/11,jud
 universidad de palermo,ciencias veterinarias,2020/10/02,ms. april fernandez dds,female,57,2126,alvear,baileyjoseph@gmail.com
 universidad de palermo,licenciatura en ciencias biológicas,2020/12/08,kimberly guerrero,female,99,5751,agua salada,gutierrezjacob@yahoo.com
 universidad de palermo,licenciatura en ciencias de la educación,2020/11/05,sheryl parsons,female,34,6612,capdepont,brent93@yahoo.com
-universidad de palermo,licenciatura en ciencias antropológicas,2020/12/14,mark webb,male,9,8514,laguna del barro,daviddavid@yahoo.com
+universidad de palermo,licenciatura en ciencias antropológicas,2020/12/14,mark webb,male,10,8514,laguna del barro,daviddavid@yahoo.com
 universidad de palermo,licenciatura en sociología,2020/09/08,francisco frey,male,54,8146,el rincon,montgomerydaniel@yahoo.com
 universidad de palermo,licenciatura en gestión de agroalimentos,2021/01/06,scott greer,male,91,5585,el cipres,kellyhernandez@hotmail.com
 universidad de palermo,actuario,2020/10/28,thomas george,male,12,1765,isidro casanova,michaelquinn@yahoo.com
@@ -1658,7 +1658,7 @@ universidad de palermo,medicina,2020/11/20,christy clark,female,89,2905,general 
 universidad de palermo,licenciatura en ciencias geológicas,2021/01/19,amanda moore,female,34,3572,campo garabato,amandakramer@gmail.com
 universidad de palermo,licenciatura en artes,2020/09/11,tracey williamson,female,51,6643,araujo,mccarthyashley@yahoo.com
 universidad de palermo,diseño industrial,2020/10/19,thomas luna,male,7,6053,el peregrino,stephanie19@yahoo.com
-universidad de palermo,medicina,2020/12/26,gina fisher,female,47,3701,almirante brown,marynicholson@hotmail.com
+universidad de palermo,medicina,2020/12/26,gina fisher,female,48,3701,almirante brown,marynicholson@hotmail.com
 universidad de palermo,agronomía,2020/12/09,brittany mcpherson,female,81,3280,arroyo urquiza,halenicole@gmail.com
 universidad de palermo,licenciatura en ciencias geológicas,2020/11/02,michele hurst,female,15,1768,ciudad madero,gcollins@hotmail.com
 universidad de palermo,diseño industrial,2020/11/10,eric warren,male,72,5429,el abanico,mcknightamanda@yahoo.com
